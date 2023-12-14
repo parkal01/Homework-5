@@ -1,0 +1,69 @@
+
+
+body {
+    font-family: 'Arial', sans-serif; /* Changed font-family to Arial */
+    margin: 0 auto;
+    padding: 20px; /* Reduced padding for a more compact layout */
+    max-width: 500px; /* Increased max-width for better responsiveness */
+    min-width: 300px;
+    background-color: #508da7;
+    text-align: center;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 2.5em; /* Increased font size for emphasis */
+    color: #2d3436;
+    margin: 20px 0 40px; /* Increased bottom margin for better separation */
+  }
+  
+  .card {
+    border-radius: 15px; /* Reduced border-radius for a softer look */
+    position: relative;
+    padding: 20px 15px; /* Slightly reduced padding */
+    background-color: #2cbaba;
+    margin: 30px 0; /* Reduced top and bottom margin */
+    height: 180px; /* Reduced card height */
+    box-shadow: 0 2px 5px #b57a7a;
+    text-align: left;
+  }
+
+  
+  .top {
+    border-radius: 25px 25px 0 0;
+    height: 100px;
+    width: 100%;
+    background-color: #00cec9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+  }
+  
+  .name {
+    font-size: 2em;
+    color: #2d3436;
+    display: flex;
+    flex: 1;
+    margin: 10% 20px 0;
+  }
+  
+  .card img {
+    margin: 30px 20px 0 0;
+  }
+  
+  .circle-img {
+    border-radius: 50%;
+    border: 7px solid #c67c7c;
+    width: 120px;
+    height: 120px;
+  }
+  
+  .bottom {
+    margin-top: 120px;
+  }
+  
+  .info {
+    margin: 20px 0;
+    color: #1a7e76;
+  }
